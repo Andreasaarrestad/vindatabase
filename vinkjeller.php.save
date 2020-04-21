@@ -1,0 +1,69 @@
+
+
+<?php
+
+//include 'session.php';
+
+$content = '<h2>Min vinkjeller</h2>
+
+        <form role="form">
+            <input type="text" placeholder="varenummer" id="varenummer">
+            <input type="text" placeholder="beholdning" id="beholdning">
+            <input type="button" onclick="nyvin()" value="Submit"></input>
+        </form>
+        
+        <br />
+        
+        
+    
+        <table id="viner">
+                <thead>
+                    <tr>
+                        <th>Varenummer</th>
+                        <th>Varenavn</th>
+                        <th>Årgang</th>
+                        <th>Vintype</th>
+                        <th>Produsent</th>
+                        <th>Land</th>
+                        <th>Distrikt</th>
+                        <th>Underdistrikt</th>
+                        <th>Volum</th>
+                        <th>Pris</th>
+                        <th>Alkoholprosent</th>
+                        <th>Beholdning</th>
+                        <th>Dato</th>
+                        <th>Tid</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Varenummer</th>
+                        <th>Varenavn</th>
+                        <th>Årgang</th>
+                        <th>Vintype</th>
+                        <th>Produsent</th>
+                        <th>Land</th>
+                        <th>Distrikt</th>
+                        <th>Underdistrikt</th>
+                        <th>Volum</th>
+                        <th>Pris</th>
+                        <th>Alkoholprosent</th>
+                        <th>Beholdning</th>
+                        <th>Dato</th>
+                        <th>Tid</th>
+                        <th></th>
+                    </tr>
+                </tfoot>
+            </table>
+            
+            <br>   
+            
+            ';
+
+include 'master.php';
+
+?>
+
